@@ -1,0 +1,406 @@
+LEVEL3_NAM,LEVEL3_COD,Gallagher_country,ISO_code
+Afghanistan,AFG,Afghanistan,AF
+Albania,ALB,Albania,AL
+Aldabra,ALD,Aldabra,SC
+Algeria,ALG,Algeria,DZ
+Andaman Is.,AND,Andaman Is.,MM
+Andaman Is.,AND,Andaman Is.,IN
+Angola,ANG,Angola,AO
+Cabinda,CAB,Angola,AO
+Antarctica,ANT,Antarctica,AQ
+Antipodean Is.,ATP,Antipodean Is.,NZ
+Argentina Northeast,AGE,Argentina,AR
+Argentina South,AGS,Argentina,AR
+Argentina Northwest,AGW,Argentina,AR
+Aruba,ARU,Aruba,AW
+New South Wales,NSW,Australia,AU
+Northern Territory,NTA,Australia,AU
+Queensland,QLD,Australia,AU
+South Australia,SOA,Australia,AU
+Tasmania,TAS,Australia,AU
+Victoria,VIC,Australia,AU
+Western Australia,WAU,Australia,AU
+Austria,AUT,Austria,AT
+Azores,AZO,Azores,PT
+Bahamas,BAH,Bahamas,BS
+Baltic States,BAH,Baltic States,LT
+Baltic States,BAH,Baltic States,EE
+Baltic States,BLT,Baltic States,LV
+Bangladesh,BAN,Bangladesh,BD
+Belarus,BLR,Belarus,BY
+Belgium,BGM,Belgium,BE
+Belize,BLZ,Belize,BZ
+Benin,BEN,Benin,BJ
+Bismarck Archipelago,BIS,Bismarck Archipelago,PG
+Bolivia,BOL,Bolivia,BO
+Borneo,BOL,Borneo,MY
+Borneo,BOL,Borneo,ID
+Borneo,BOR,Borneo,BN
+Botswana,BOT,Botswana,BW
+Bouvet I.,BOU,Bouvet I.,BV
+Brazil West-Central,BZC,Brazil,BR
+Brazil Northeast,BZE,Brazil,BR
+Brazil Southeast,BZL,Brazil,BR
+Brazil North,BZN,Brazil,BR
+Brazil South,BZS,Brazil,BR
+Ascension,ASC,British Overseas Territories,SH
+Bermuda,BER,British Overseas Territories,BM
+Cayman Is.,CAY,British Overseas Territories,KY
+Chagos Archipelago,CGS,British Overseas Territories,IO
+Falkland Is.,FAL,British Overseas Territories,FK
+Pitcairn Is.,PIT,British Overseas Territories,PN
+South Georgia,SGE,British Overseas Territories,GS
+South Sandwich Is.,SSA,British Overseas Territories,GS
+St.Helena,STH,British Overseas Territories,SH
+Turks-Caicos Is.,TCI,British Overseas Territories,TC
+Tristan da Cunha,TDC,British Overseas Territories,SH
+Bulgaria,BUL,Bulgaria,BG
+Burkina,BKN,Burkina,BF
+Burundi,BUR,Burundi,BI
+C. American Pacific Is.,CPI,C. American Pacific Is.,FR
+C. American Pacific Is.,CPI,C. American Pacific Is.,CR
+C. American Pacific Is.,CPI,C. American Pacific Is.,CO
+Cambodia,CBD,Cambodia,KH
+Cameroon,CMN,Cameroon,CM
+Alberta,ABT,Canada,CA
+British Columbia,BRC,Canada,CA
+Labrador,LAB,Canada,CA
+Manitoba,MAN,Canada,CA
+New Brunswick,NBR,Canada,CA
+Newfoundland,NFL,Canada,CA
+Nova Scotia,NSC,Canada,CA
+Nunavut,NUN,Canada,CA
+Northwest Territories,NWT,Canada,CA
+Ontario,ONT,Canada,CA
+Québec,QUE,Canada,CA
+Saskatchewan,SAS,Canada,CA
+Yukon,YUK,Canada,CA
+Canary Is.,CNY,Canary Is.,ES
+Cape Verde,CVI,Cape Verde,CV
+Caroline Is.,CRL,Caroline Is.,PW
+Caroline Is.,CRL,Caroline Is.,FM
+Central African Republic,CAF,Central African Republic,CF
+Chad,CHA,Chad,TD
+Chatham Is.,CTM,Chatham Is.,NZ
+Chile Central,CLC,Chile,CL
+Chile North,CLN,Chile,CL
+Chile South,CLS,Chile,CL
+China South-Central,CHC,China,CN
+Hainan,CHH,China,CN
+Inner Mongolia,CHI,China,CN
+Manchuria,CHM,China,CN
+China North-Central,CHN,China,CN
+Qinghai,CHQ,China,CN
+China Southeast,CHS,China,CN
+Tibet,CHT,China,CN
+Xinjiang,CHX,China,CN
+Christmas I.,XMS,Christmas I.,CX
+Cocos (Keeling) I.,CKI,Cocos (Keeling) I.,CC
+Colombia,CLM,Colombia,CO
+Comoros,COM,Comoros,KM
+Congo,CON,Congo,CG
+Cook Is.,COO,Cook Is.,CK
+Costa Rica,COS,Costa Rica,CR
+Cuba,CUB,Cuba,CU
+Cyprus,CYP,Cyprus,CY
+Czechoslovakia,CZE,Czechoslovakia,SK
+Czechoslovakia,CZE,Czechoslovakia,CZ
+Denmark,DEN,Denmark,DK
+Desventurados Is.,DSV,Desventurados Is.,CL
+Djibouti,DJI,Djibouti,DJ
+Dominican Republic,DOM,Dominican Republic,DO
+East Himalaya,EHM,East Himalaya,BT
+East Himalaya,EHM,East Himalaya,IN
+Easter Is.,EAS,Easter Is.,CL
+Ecuador,ECU,Ecuador,EC
+Egypt,EGY,Egypt,EG
+Sinai,SIN,Egypt,EG
+El Salvador,ELS,El Salvador,SV
+Equatorial Guinea,EQG,Equatorial Guinea,GQ
+Eritrea,ERI,Eritrea,ER
+Ethiopia,ETH,Ethiopia,ET
+Føroyar,FOR,Føroyar,FO
+Fiji,FIJ,Fiji,FJ
+Finland,FIN,Finland,FI
+France,FRA,France,FR
+Amsterdam-St.Paul Is.,ASP,French Offshore Territories,TF
+Corse,COR,French Offshore Territories,FR
+Crozet Is.,CRZ,French Offshore Territories,TF
+French Guiana,FRG,French Offshore Territories,FG
+Kerguelen,KEG,French Offshore Territories,TF
+Mozambique Channel Is.,MCI,French Offshore Territories,TF
+Marquesas,MRQ,French Offshore Territories,FR
+Réunion,REU,French Offshore Territories,RE
+Society Is.,SCI,French Offshore Territories,PF
+Tuamotu,TUA,French Offshore Territories,PF
+Gabon,GAB,Gabon,GA
+Galápagos,GAL,Galápagos,EC
+"Gambia, The",GAM,"Gambia, The",GM
+Germany,GER,Germany,DE
+Ghana,GHA,Ghana,GH
+Gilbert Is.,GIL,Gilbert Is.,KI
+Great Britain,GRB,Great Britain,GB
+East Aegean Is.,EAI,Greece,GR
+Greece,GRC,Greece,GR
+Kriti,KRI,Greece,GR
+Greenland,GNL,Greenland,GL
+Guatemala,GUA,Guatemala,GT
+Guinea,GUI,Guinea,GN
+Guinea-Bissau,GNB,Guinea-Bissau,GW
+Gulf of Guinea Is.,GGI,Gulf of Guinea Is.,ST
+Gulf of Guinea Is.,GGI,Gulf of Guinea Is.,GQ
+Gulf States,GST,Gulf States,BH
+Gulf States,GST,Gulf States,QA
+Gulf States,GST,Gulf States,AE
+Guyana,GUY,Guyana,GY
+Haiti,HAI,Haiti,HT
+Heard-McDonald Is.,HMD,Heard-McDonald Is.,HM
+Honduras,HON,Honduras,HN
+Howland-Baker Is.,HBI,Howland-Baker Is.,UM
+Hungary,HUN,Hungary,HU
+Iceland,ICE,Iceland,IS
+Assam,ASS,India,IN
+India,IND,India,IN
+West Himalaya,WHM,India,IN
+Iran,IRN,Iran,IR
+Iraq,IRQ,Iraq,IQ
+Ireland,IRE,Ireland,IE
+Italy,ITA,Italy,IT
+Sardegna,SAR,Italy,IT
+Sicilia,SIC,Italy,IT
+Ivory Coast,IVO,Ivory Coast,CI
+Jamaica,JAM,Jamaica,JM
+Japan,JAP,Japan,JP
+Nansei-shoto,NNS,Japan,JP
+Ogasawara-shoto,OGA,Japan,JP
+Jawa,JAW,Jawa,ID
+Juan Fernández Is.,JNF,Juan Fernández Is.,CL
+Kazakhstan,KAZ,Kazakhstan,KZ
+Kazan-retto,KZN,Kazan-retto,JP
+Kenya,KEN,Kenya,KE
+Kermadec Is.,KER,Kermadec Is.,NZ
+Kirgizistan,KGZ,Kirgizistan,KG
+Korea,KOR,Korea,KP
+Kuwait,KUW,Kuwait,KW
+Laccadive Is.,LDV,Laccadive Is.,IN
+Laos,LAO,Laos,LA
+Lebanon-Syria,LBS,Lebanon-Syria,LB
+Lebanon-Syria,LBS,Lebanon-Syria,SY
+Leeward Is. AB Ant,LEE,Leeward Is. AB Ant,GP
+Leeward Is. AB Ant,LEE,Leeward Is. AB Ant,KN
+Leeward Is. AB Ant,LEE,Leeward Is. AB Ant,AG
+Lesotho,LES,Lesotho,LS
+Lesser Sunda Is.,LSI,Lesser Sunda Is.,
+Liberia,LBR,Liberia,LR
+Libya,LBY,Libya,LY
+Line Is.,LIN,Line Is.,KI
+Line Is.,LIN,Line Is.,US
+Macquarie Is.,MAQ,Macquarie Is.,AU
+Madagascar,MDG,Madagascar,MG
+Madeira,MDR,Madeira,PT
+Malawi,MLW,Malawi,MW
+Malaya,MLY,Malaya,MY
+Maldives,MDV,Maldives,MV
+Mali,MLI,Mali,ML
+Maluku,MOL,Maluku,ID
+Marcus I.,MCS,Marcus I.,JP
+Marianas,MRN,Marianas,US
+Marion-Prince Edward Is.,MPE,Marion-Prince Edward Is.,ZA
+Marshall Is.,MRS,Marshall Is.,MH
+Mauritania,MTN,Mauritania,MR
+Mauritius,MAU,Mauritius,MU
+Mexico Central,MXC,Mexico,MX
+Mexico Northeast,MXE,Mexico,MX
+Mexico Gulf,MXG,Mexico,MX
+Mexican Pacific Is.,MXI,Mexico,MX
+Mexico Northwest,MXN,Mexico,MX
+Mexico Southwest,MXS,Mexico,MX
+Mexico Southeast,MXT,Mexico,MX
+Mongolia,MON,Mongolia,MN
+Morocco,MOR,Morocco,MA
+Western Sahara,WSA,Morocco,MA
+Mozambique,MOZ,Mozambique,MZ
+Myanmar,MYA,Myanmar,MM
+Caprivi Strip,CPV,Namibia,NA
+Namibia,NAM,Namibia,NA
+Nauru,NRU,Nauru,NR
+Nepal,NEP,Nepal,NP
+Netherlands,NET,Netherlands,NL
+Netherlands Antilles,NLA,Netherlands Antilles,BQ
+Netherlands Antilles,NLA,Netherlands Antilles,SX
+Netherlands Antilles,NLA,Netherlands Antilles,NL
+Netherlands Antilles,NLA,Netherlands Antilles,CW
+Netherlands Antilles,NLA,Netherlands Antilles,AW
+New Caledonia,NWC,New Caledonia,NC
+New Guinea,NWG,New Guinea,PG
+New Guinea,NWG,New Guinea,ID
+New Zealand North,NZN,New Zealand,NZ
+New Zealand South,NZS,New Zealand,NZ
+Nicaragua,NIC,Nicaragua,NI
+Nicobar Is.,NCB,Nicobar Is.,IN
+Niger,NGR,Niger,NE
+Nigeria,NGA,Nigeria,NG
+Niue,NUE,Niue,NU
+Norfolk Is.,NFK,Norfolk Is.,NF
+Norway,NOR,Norway,NO
+Svalbard,SVA,Norway,NO
+Oman,OMA,Oman,OM
+Pakistan,PAK,Pakistan,PK
+Palestine,PAL,Palestine,PS
+Panama,PAN,Panama,PA
+Paraguay,PAR,Paraguay,PY
+Peru,PER,Peru,PE
+Philippines,PHI,Philippines,PH
+Phoenix Is.,PHX,Phoenix Is.,US
+Phoenix Is.,PHX,Phoenix Is.,KI
+Poland,POL,Poland,PL
+Portugal,POR,Portugal,PT
+Prince Edward I.,PEI,Prince Edward I.,ZA
+Puerto Rico,PUE,Puerto Rico,PR
+Rodrigues,ROD,Rodrigues,M
+Romania,ROM,Romania,RO
+Altay,ALT,Russia,RU
+Amur,AMU,Russia,RU
+Buryatiya,BRY,Russia,RU
+Chita,CTA,Russia,RU
+Irkutsk,IRK,Russia,RU
+Kamchatka,KAM,Russia,RU
+Khabarovsk,KHA,Russia,RU
+Krasnoyarsk,KRA,Russia,RU
+Kuril Is.,KUR,Russia,RU
+Magadan,MAG,Russia,RU
+North Caucasus,NCS,Russia,RU
+Primorye,PRM,Russia,RU
+Central European Russia,RUC,Russia,RU
+East European Russia,RUE,Russia,RU
+North European Russia,RUN,Russia,RU
+South European Russia,RUS,Russia,RU
+Northwest European Russia,RUW,Russia,RU
+Sakhalin,SAK,Russia,RU
+Tuva,TVA,Russia,RU
+West Siberia,WSB,Russia,RU
+Yakutskiya,YAK,Russia,RU
+Rwanda,RWA,Rwanda,RW
+Samoa,SAM,Samoa,WS
+Santa Cruz Is.,SCZ,Santa Cruz Is.,SB
+Saudi Arabia,SAU,Saudi Arabia,SA
+Selvagens,SEL,Selvagens,PT
+Senegal,SEN,Senegal,SN
+Seychelles,SEY,Seychelles,SC
+Sierra Leone,SIE,Sierra Leone,SL
+Socotra,SOC,Socotra,YE
+Solomon Is.,SOL,Solomon Is.,SB
+Somalia,SOM,Somalia,SO
+Cape Provinces,CPP,South Africa,ZA
+KwaZulu-Natal,NAT,South Africa,ZA
+Free State,OFS,South Africa,ZA
+Northern Provinces,TVL,South Africa,ZA
+South China Sea,SCS,South China Sea,
+Southwest Caribbean,SWC,Southwest Caribbean,NI
+Southwest Caribbean,SWC,Southwest Caribbean,HN
+Southwest Caribbean,SWC,Southwest Caribbean,CO
+Baleares,BAL,Spain,ES
+Spain,SPA,Spain,ES
+Sri Lanka,SRL,Sri Lanka,LK
+Sudan,SUD,Sudan,SD
+Sulawesi,SUL,Sulawesi,ID
+Sumatera,SUM,Sumatera,ID
+Surinam,SUR,Surinam,SR
+Swaziland,SWZ,Swaziland,SZ
+Sweden,SWE,Sweden,SE
+Switzerland,SWI,Switzerland,CH
+Tadzhikistan,TZK,Tadzhikistan,TJ
+Taiwan,TAI,Taiwan,TW
+Tanzania,TAN,Tanzania,TZ
+Thailand,THA,Thailand,TH
+Togo,TOG,Togo,TG
+Tokelau-Manihiki,TOK,Tokelau-Manihiki,TK
+Tonga,TON,Tonga,TO
+Transcaucasus,TCS,Transcaucasus,AM
+Transcaucasus,TCS,Transcaucasus,GE
+Transcaucasus,TCS,Transcaucasus,AZ
+Trinidad-Tobago,TRT,Trinidad-Tobago,TT
+Tubuai Is.,TUB,Tubuai Is.,PF
+Tunisia,TUN,Tunisia,TN
+Turkey-in-Europe,TUE,Turkey,TR
+Turkey,TUR,Turkey,TR
+Turkmenistan,TKM,Turkmenistan,TM
+Tuvalu,TUV,Tuvalu,TV
+Uganda,UGA,Uganda,UG
+Krym,KRY,Ukraine,UA
+Ukraine,UKR,Ukraine,UA
+Alabama,ALA,United States,US
+Aleutian Is.,ALU,United States,US
+Arizona,ARI,United States,US
+Arkansas,ARK,United States,US
+Alaska,ASK,United States,US
+California,CAL,United States,US
+Connecticut,CNT,United States,US
+Colorado,COL,United States,US
+Delaware,DEL,United States,US
+Florida,FLA,United States,US
+Georgia,GEO,United States,US
+Hawaii,HAW,United States,US
+Idaho,IDA,United States,US
+Illinois,ILL,United States,US
+Indiana,INI,United States,US
+Iowa,IOW,United States,US
+Kansas,KAN,United States,US
+Kentucky,KTY,United States,US
+Louisiana,LOU,United States,US
+Maine,MAI,United States,US
+Massachusetts,MAS,United States,US
+Michigan,MIC,United States,US
+Minnesota,MIN,United States,US
+Montana,MNT,United States,US
+Maryland,MRY,United States,US
+Mississippi,MSI,United States,US
+Missouri,MSO,United States,US
+North Carolina,NCA,United States,US
+North Dakota,NDA,United States,US
+Nebraska,NEB,United States,US
+Nevada,NEV,United States,US
+New Hampshire,NWH,United States,US
+New Jersey,NWJ,United States,US
+New Mexico,NWM,United States,US
+New York,NWY,United States,US
+Ohio,OHI,United States,US
+Oklahoma,OKL,United States,US
+Oregon,ORE,United States,US
+Pennsylvania,PEN,United States,US
+Rhode I.,RHO,United States,US
+South Carolina,SCA,United States,US
+South Dakota,SDA,United States,US
+Tennessee,TEN,United States,US
+Texas,TEX,United States,US
+Utah,UTA,United States,US
+Vermont,VER,United States,US
+Virginia,VRG,United States,US
+Washington,WAS,United States,US
+District of Columbia,WDC,United States,US
+Wisconsin,WIS,United States,US
+West Virginia,WVA,United States,US
+Wyoming,WYO,United States,US
+Uruguay,URU,Uruguay,UY
+Uzbekistan,UZB,Uzbekistan,UZ
+Vanuatu,VAN,Vanuatu,VU
+Venezuela,VEN,Venezuela,VE
+Venezuelan Antilles,VNA,Venezuelan Antilles,VE
+Vietnam,VIE,Vietnam,VN
+Wake I.,WAK,Wake I.,US
+Wallis-Futuna Is.,WAL,Wallis-Futuna Is.,FR
+Windward Is.,WIN,Windward Is.,DM
+Windward Is.,WIN,Windward Is.,GD
+Windward Is.,WIN,Windward Is.,FR
+Windward Is.,WIN,Windward Is.,VC
+Windward Is.,WIN,Windward Is.,LC
+Yemen,YEM,Yemen,YE
+Yugoslavia,YUG,Yugoslavia,BA
+Yugoslavia,YUG,Yugoslavia,HR
+Yugoslavia,YUG,Yugoslavia,ME
+Yugoslavia,YUG,Yugoslavia,MK
+Yugoslavia,YUG,Yugoslavia,RS
+Yugoslavia,YUG,Yugoslavia,SI
+Zaïre,ZAI,Zaïre,CD
+Zambia,ZAM,Zambia,ZM
+Zimbabwe,ZIM,Zimbabwe,ZW
