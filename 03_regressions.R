@@ -7,7 +7,7 @@ library(tidyverse)
 library(readr)
 
 #load in range size data
-ranges <- read_csv('03_clean_data/range_sizes.csv') %>%
+ranges <- read_csv('range_sizes.csv') %>%
   mutate(lifeform = lifeform %>% fct_relevel('non-epiphyte'))
 
 # download phylogenetic trees from https://doi.org/10.5281/zenodo.7600341
@@ -76,13 +76,13 @@ eoo.list[[25]] <- eoo #manually add all-angiosperm dataframe
 eoo.lm <- function(range_data){
   (lm.eoo <- glm(logEOO ~ lifeform, data=range_data))
   sum <- summary(lm.eoo)
-  sum$data <- range_data$family[1]
+  sum$family <- range_data$family[1]
   return(sum)
 }
 
 #apply function
 eoo.lm.results <- lapply(eoo.list, eoo.lm)
-eoo.lm.results[[25]]$data <- 'Angiosperms'
+eoo.lm.results[[25]]$family <- 'Angiosperms'
 
 
 ## PGLS regression 
@@ -138,8 +138,6 @@ names(eoo.results.df) <- gsub(x = names(eoo.results.df), pattern = "fn1", replac
 names(eoo.results.df) <- gsub(x = names(eoo.results.df), pattern = "fn2", replacement = "sd")  
 #make family correct 
 eoo.results.df$family[25] <- 'Angiosperms'
-
-write_csv(eoo.results.df, 'phylo_regs_eoo.csv')
 
 #### Specimen count analysis ----
 
@@ -232,9 +230,6 @@ names(spec.results.df) <- gsub(x = names(spec.results.df), pattern = "fn1", repl
 names(spec.results.df) <- gsub(x = names(spec.results.df), pattern = "fn2", replacement = "sd")  
 #make family correct 
 spec.results.df$family[25] <- 'Angiosperms'
-
-write_csv(spec.results.df, 'phylo_regs_spec.csv')
-
 
 #### prep dataframes with just tropical species for sensitivity analysis ----
 
