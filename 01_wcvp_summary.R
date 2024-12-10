@@ -10,9 +10,9 @@ library(readr)
 # Download WCVP at https://powo.science.kew.org/
 
 # WCVP names 
-wcvp_names <- read.table("wcvp_names_and_distribution_special_edition_2022/wcvp_names.txt", sep="|", header=TRUE, quote = "", fill=TRUE, encoding = "UTF-8") 
+wcvp_names <- read.table("wcvp_names.txt", sep="|", header=TRUE, quote = "", fill=TRUE, encoding = "UTF-8") 
 #WCVP distributions
-wcvp_dist <- read.table("wcvp_names_and_distribution_special_edition_2022/wcvp_distribution.txt", sep="|", header=TRUE, quote = "", fill=TRUE, encoding = "UTF-8") 
+wcvp_dist <- read.table("wcvp_distribution.txt", sep="|", header=TRUE, quote = "", fill=TRUE, encoding = "UTF-8") 
 
 # Epilist
 # download from supp. info in https://doi.org/10.1002/ecy.3326

@@ -11,10 +11,10 @@ ranges <- read_csv('range_sizes.csv') %>%
   mutate(lifeform = lifeform %>% fct_relevel('non-epiphyte'))
 
 # download phylogenetic trees from https://doi.org/10.5281/zenodo.7600341
-phylo <- read.tree('Angiosperms_100trees.tre')
+phylo_list <- read.tree('Angiosperms_100trees.tre')
 
 # one phylogenetic tree for pruning datasets
-phylo <- phylo_list[[1]]
+phylo1 <- phylo_list[[1]]
 
 #### Botanical countries analysis ----
 
@@ -52,9 +52,9 @@ eoo <- ranges %>% drop_na(EOOkm2) %>% filter(EOOkm2 > 0) %>% # remove species wi
   mutate(logEOO= log(EOOkm2)) # get log of EOO
 eoo <- as.data.frame(eoo)
 # prune tree for phylogenetic regression
-drop_1 <- phylo$tip.label[!phylo$tip.label %in% eoo$tip.label]
-tree_1 <- drop.tip(phylo, as.character(drop_1))
-# assign unique names to node labels - solve problem of duplicated nodes (null)
+drop_1 <- phylo1$tip.label[!phylo1$tip.label %in% eoo$tip.label]
+tree_1 <- drop.tip(phylo1, as.character(drop_1))
+# assign unique names to node labels 
 tree_1 <- makeLabel(tree_1)
 # match row names with the tip labels in the tree
 # sort trait data and phylogeny in the same species order, prune dataset to tree
@@ -72,7 +72,7 @@ eoo.list[[25]] <- eoo #manually add all-angiosperm dataframe
 
 ## ordinary regression
 
-# function to run OLS for EOO datasets
+# function to run linear regression for EOO datasets
 eoo.lm <- function(range_data){
   (lm.eoo <- glm(logEOO ~ lifeform, data=range_data))
   sum <- summary(lm.eoo)
@@ -86,10 +86,6 @@ eoo.lm.results[[25]]$family <- 'Angiosperms'
 
 
 ## PGLS regression 
-
-# test phylogenetic regression with 1 tree
-#(pgls.eoo <- phylolm(logEOO ~ lifeform, data=eoo,phy=tree_1,model='lambda'))
-
 
 # function that calculates mean and sd of regression values for 100 trees
 eoo.loop <- function(x) {
@@ -144,9 +140,9 @@ eoo.results.df$family[25] <- 'Angiosperms'
 spec <- ranges %>% drop_na(recordCount) %>%  # remove species with no records
   mutate(logRecord= log(recordCount)) #%>% #get log of EOO
 # prune tree for phylogenetic regression
-drop_3 <- phylo$tip.label[!phylo$tip.label %in% spec$tip.label]
-tree_3 <- drop.tip(phylo, as.character(drop_3))
-# assign unique names to node labels - solve problem of duplicated nodes (null)
+drop_3 <- phylo1$tip.label[!phylo1$tip.label %in% spec$tip.label]
+tree_3 <- drop.tip(phylo1, as.character(drop_3))
+# assign unique names to node labels
 tree_3 <- makeLabel(tree_3)
 # match row names with the tip labels in the tree
 # sort trait data and phylogeny in the same species order
@@ -164,7 +160,7 @@ spec.list[[25]] <- spec  #manually add all-angiosperm dataframe
 
 ## ordinary regression
 
-# function to run OLS for specimen count datasets
+# function to run linear regression for specimen count datasets
 spec.lm <- function(range_data){
   (lm.spec <- glm(logRecord ~ lifeform, data=range_data))
   sum <- summary(lm.spec)
@@ -178,10 +174,6 @@ spec.lm.results[[25]]$data <- 'Angiosperms'
 
 
 ## PGLS regression
-
-# test phylogenetic regression
-#(pgls.spec <- phylolm(logRecord ~ lifeform, data=spec,phy=tree_3,model='lambda'))
-
 
 #function that calculates mean and sd for 100 trees
 spec.loop <- function(x) {
@@ -262,8 +254,9 @@ spec.sens <- spec %>% filter(family %in% epi$family)
 
 #specimen count
 spec.loop(spec.sens) #phyloLM
-lm.eoo <- lm(logEOO ~ lifeform, data=spec.sens) #OLS
+lm.eoo <- lm(logRecord ~ lifeform, data=spec.sens) #OLS
 
+#eoo
 eoo.loop(eoo.sens) #phyloLM
 lm.eoo <- lm(logEOO ~ lifeform, data=eoo.sens) #OLS
 
