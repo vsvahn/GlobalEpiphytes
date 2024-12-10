@@ -48,7 +48,8 @@ ranges.lm.results[[25]]$data <- 'Angiosperms'
 #### EOO analysis  ----
 
 ## make EOO dataframe
-eoo <- ranges %>% drop_na(EOOkm2) %>% filter(EOOkm2 > 0) %>% # remove species with no EOO
+eoo <- ranges %>%
+  drop_na(EOOkm2) %>% # remove species with no EOO
   mutate(logEOO= log(EOOkm2)) # get log of EOO
 eoo <- as.data.frame(eoo)
 # prune tree for phylogenetic regression
@@ -137,8 +138,9 @@ eoo.results.df$family[25] <- 'Angiosperms'
 
 #### Specimen count analysis ----
 
-spec <- ranges %>% drop_na(recordCount) %>%  # remove species with no records
-  mutate(logRecord= log(recordCount)) #%>% #get log of EOO
+spec <- ranges %>%
+  drop_na(recordCount) %>%  # remove species with no records
+  mutate(logRecord= log(recordCount)) # #get log of EOO
 # prune tree for phylogenetic regression
 drop_3 <- phylo1$tip.label[!phylo1$tip.label %in% spec$tip.label]
 tree_3 <- drop.tip(phylo1, as.character(drop_3))
