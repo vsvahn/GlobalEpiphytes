@@ -90,7 +90,7 @@ dist_unq <- merge(x=dist, y = countries, by.x = 'area_code_l3', by.y = 'LEVEL3_C
   distinct(taxon_name, ISO_code)
 # filter occs outside native range
 filtered_non_occs <- non_occs %>%
-  semi_join(dist_unq, by = c("species"='taxon_name', 'countryCode'="ISO_code"))
+  filter(is.na(countryCode) | countryCode %in% dist_unq$ISO_code)
 
 # remove duplicated locality, or year & stateProvince 
 filtered_non_occs <- filtered_non_occs %>%
