@@ -5,7 +5,7 @@
 library(tidyverse)
 library(readr)
 
-## Read in data ----
+## Read in data ---
 
 # Download WCVP at https://powo.science.kew.org/
 
